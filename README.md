@@ -23,11 +23,15 @@ token("YOUR_BOT_TOKEN_HERE")
 with your own token from BotFather
 Launch the bot:
 python habit_bot.py
+
+
 📁 Project Structure
 HabitTrackerBot/
 ├── habit_bot.py       # Main Telegram bot script
 ├── habit_data.json    # User habit progress data
 └── README.md          # Project documentation
+
+
 👤 Author
 Developed with ❤️ by a high school student as part of a personal portfolio for international university applications.
 GitHub: @Specterbord
