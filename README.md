@@ -1,48 +1,33 @@
 # HabitTrackerBot
-🤖 Telegram-бот для отслеживания привычек. Помогает формировать полезные привычки и не сбиваться с пути.
+ A Telegram bot that helps you build and maintain healthy habits. Track your daily progress and stay consistent with your routines
+ Features
+- `/start` — Welcome message and usage instructions  
+- `/add <habit>` — Add a new habit  
+- `/habits` — View your list of habits  
+- `/done <habit>` — Mark a habit as completed for today  
+- `/status` — Check your current streaks  
+- `/reset <habit>` — Reset progress for a specific habit  
+Technologies Used
 
-🚀 Возможности
-/start — приветствие и инструкция
+- Python 3.11+
+- Library: [`python-telegram-bot`](https://github.com/python-telegram-bot/python-telegram-bot) (v20.3)
+- Data Storage: Local `JSON` file (`habit_data.json`)
+- How to Run
 
-/add <название> — добавить новую привычку
-
-/habits — список всех привычек
-
-/done <название> — отметить привычку выполненной
-
-/status — посмотреть текущий прогресс (стрик)
-
-/reset <название> — сбросить привычку
-
-🧠 Технологии
-Python 3.11+
-
-Библиотека: python-telegram-bot v20.3
-
-Хранение данных в habit_data.json
-
-⚙️ Как запустить
-Установи зависимости:
-
-pip install python-telegram-bot==20.3
-В файле habit_bot.py замени:
+1. Install dependencies:
+   pip install python-telegram-bot==20.3
+Replace the placeholder token in habit_bot.py:
 
 python
 token("YOUR_BOT_TOKEN_HERE")
-на свой токен из BotFather
-
-Запусти:
-
+with your own token from BotFather
+Launch the bot:
 python habit_bot.py
-📁 Структура проекта
-bash
-Копировать
-Редактировать
+📁 Project Structure
 HabitTrackerBot/
-├── habit_bot.py       # Основной код бота
-├── habit_data.json    # Хранилище данных привычек
-└── README.md          # Документация
-Автор
-Разработано с ❤️ студентом для портфолио
+├── habit_bot.py       # Main Telegram bot script
+├── habit_data.json    # User habit progress data
+└── README.md          # Project documentation
+👤 Author
+Developed with ❤️ by a high school student as part of a personal portfolio for international university applications.
 GitHub: @Specterbord
-
